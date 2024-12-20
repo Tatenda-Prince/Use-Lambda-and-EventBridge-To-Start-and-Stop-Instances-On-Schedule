@@ -32,6 +32,8 @@ Select “Author from scratch”, name the function, then choose Python 3.7 or g
 
 You will then change the default execution role and use an exiting role. To create this role select “IAM Console”.
 
+![imagr alt]()
+
 Click “Create policy”, then select the “JSON” table to edit the policy. Copy and paste the JSON policy below in the policy box, then click “Next:Tags”
 
 ![image alt]()
