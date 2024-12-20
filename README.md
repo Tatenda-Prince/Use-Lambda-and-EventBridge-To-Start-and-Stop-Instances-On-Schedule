@@ -111,6 +111,10 @@ We are going to create another event for Stop-EC2-Instance
 
 The Trigger Stop-EC2-Instance was successfully added to function Stop-EC2-Instance.The Function is now receiving event from the trigger.
 
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/e6cd10c30aadb2c3753aa6ed6093b2f2fb705086/Screenshot%202024-12-19%20211900.png)
+
+Now we can check our rule by navigating to cloudwatch under Events we can see both our rules that we created.
+
 ![image alt]()
 
 
