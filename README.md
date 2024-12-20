@@ -50,7 +50,10 @@ Continue to “Review”. Name and describe the role, then click “Create role�
 
 Head back to the Lambda’s “Create function” window. Refresh the existing roles, select the role previously created, then click “Create Function”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/308979191b655372eaf5f3d395badf87008bc510/Screenshot%202024-12-19%20203639.png)
+
+# Step 2: Deploy and Test Lambda Function
+
 
 
 
