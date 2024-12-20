@@ -53,7 +53,7 @@ Head back to the Lambda’s “Create function” window. Refresh the existing r
 ![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/308979191b655372eaf5f3d395badf87008bc510/Screenshot%202024-12-19%20203639.png)
 
 # Step 2: Deploy and Test Lambda Function
-This code uses the “boto3” Python library to interact with AWS services. In the “lambda_handler” function, we loop through all Instances to get their current state and tags.
+This code uses the “boto3” Python library to interact with AWS services. In the “lambda_handler” function, So that we are able stop our running Instance.
 
 ![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/e5c65fdcec12a5957765919bcf2a19f46cff6305/Screenshot%202024-12-19%20204150.png)
 
@@ -75,7 +75,19 @@ Our Instance has been successfully stopped using a lambda function as you can se
 
 Now that we have managed stop our EC2 instance are going to create another lambda function to start our previously stopped instance.
 
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/760c685a2b4fa7fc5d197c77b368978adc7460ef/Screenshot%202024-12-19%20205355.png )
+
+Next, we will click “Deploy” to deploy the function’s code to the Lambda service.
+
+![images alt]( )
+
+For “Test event action”, select “Create a new event”, then name the event. We can use the JSON code below to test our Lambda function.
+
+Click “Save” to save the Test event.
+
 ![image alt]( )
+
+
 
 
 Now that we’ve set up and created our Lambda function and also tested its successful functionality, we can now proceed to Step 3 — Using EventBridge to schedule our function to run at a set time of the day and days of the week.
