@@ -115,7 +115,17 @@ The Trigger Stop-EC2-Instance was successfully added to function Stop-EC2-Instan
 
 Now we can check our rule by navigating to cloudwatch under Events we can see both our rules that we created.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/e6cd10c30aadb2c3753aa6ed6093b2f2fb705086/Screenshot%202024-12-19%20211900.png)
+
+# Success!
+You’ve successful created a Lambda function that stops all Development EC2 Instances and integrated it with Amazon EventBridge to schedule the function to run at a specified time.
+
+# More Insights
+
+In your Lambda Function, select the “Monitor” tab, then click “View CloudWatch logs”.
+
+![imaged]()
+
 
 
 
