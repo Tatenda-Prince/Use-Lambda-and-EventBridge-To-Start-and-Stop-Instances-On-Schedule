@@ -107,7 +107,14 @@ The Trigger start-server-mornning was successfully added to function start-EC2-I
 
 We are going to create another event for Stop-EC2-Instance
 
-![image alt]( )
+![image alt]( https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/766610a43ad0a1181a8d7049578bae2d9adace1e/Screenshot%202024-12-19%20211838.png)
+
+The Trigger Stop-EC2-Instance was successfully added to function Stop-EC2-Instance.The Function is now receiving event from the trigger.
+
+![image alt]()
+
+
+
 
 
 
