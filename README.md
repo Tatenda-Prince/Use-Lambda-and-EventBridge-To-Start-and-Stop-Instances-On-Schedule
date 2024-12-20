@@ -124,7 +124,9 @@ You’ve successful created a Lambda function that stops all Development EC2 Ins
 
 In your Lambda Function, select the “Monitor” tab, then click “View CloudWatch logs”.
 
-![imaged]()
+![imaged](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/498ccddbeb0bb9d3c66b50ee28c1dc20d10522b4/Screenshot%202024-12-19%20213440.png)
+
+![image alt]( )
 
 
 
