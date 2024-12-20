@@ -79,7 +79,7 @@ Now that we have managed stop our EC2 instance are going to create another lambd
 
 Next, we will click “Deploy” to deploy the function’s code to the Lambda service.
 
-![images alt]( )
+![images alt]( https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/ea9dd31771b0a2c323d753657003f7266f1a53bf/Screenshot%202024-12-19%20205655.png)
 
 For “Test event action”, select “Create a new event”, then name the event. We can use the JSON code below to test our Lambda function.
 
