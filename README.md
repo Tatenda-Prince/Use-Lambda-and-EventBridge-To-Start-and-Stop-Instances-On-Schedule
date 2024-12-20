@@ -89,7 +89,7 @@ Click “Save” to save the Test event.
 
 The second test ran successfully and as you can see below our Instance was sterted up again using a lambda function.
 
-![image alt]( )
+![image alt]( https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/b5973f73c3aedc7fa7b0a1786b16327566484a47/Screenshot%202024-12-19%20205756.png)
 
 
 
