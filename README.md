@@ -85,7 +85,13 @@ For “Test event action”, select “Create a new event”, then name the even
 
 Click “Save” to save the Test event.
 
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/720474360da34b4baca36e016969813ecc3e7ff2/Screenshot%202024-12-19%20205738.png )
+
+The second test ran successfully and as you can see below our Instance was sterted up again using a lambda function.
+
 ![image alt]( )
+
+
 
 
 
