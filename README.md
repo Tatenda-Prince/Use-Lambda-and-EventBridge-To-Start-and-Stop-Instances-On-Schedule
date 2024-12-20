@@ -28,9 +28,13 @@ You’ve decided to use a Lambda function using the Python runtime with EventBri
 
 Select “Author from scratch”, name the function, then choose Python 3.7 or greater Runtime.
 
-[image alt]()
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/708d80e0427011d1fe12e747ef407aa4396ee7ef/Screenshot%202024-12-19%20203618.png)
 
 You will then change the default execution role and use an exiting role. To create this role select “IAM Console”.
+
+Click “Create policy”, then select the “JSON” table to edit the policy. Copy and paste the JSON policy below in the policy box, then click “Next:Tags”
+
+![image alt]()
 
 
 
