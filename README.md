@@ -124,9 +124,17 @@ You’ve successful created a Lambda function that stops all Development EC2 Ins
 
 In your Lambda Function, select the “Monitor” tab, then click “View CloudWatch logs”.
 
+in the CloudWatch window, you should see that the last event log stream’s “last event time” matches with the time we set from EventBridge, which was the last time the Lambda function was invoked.
+
+Further more, if you select the Lambda function’s log stream, you can see more detailed information when the Lambda function was executed.
+
 ![imaged](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/498ccddbeb0bb9d3c66b50ee28c1dc20d10522b4/Screenshot%202024-12-19%20213440.png)
 
-![image alt]( )
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/46f59aba8076d532426bbcc4602e1cd2add6d185/Screenshot%202024-12-19%20213821.png )
+
+# Congratulations!
+You’ve reached the end. You’ve created a Lambda function triggered by an Amazon EventBridge schedule, which schedules the function to run at a specific time each day.
+
 
 
 
