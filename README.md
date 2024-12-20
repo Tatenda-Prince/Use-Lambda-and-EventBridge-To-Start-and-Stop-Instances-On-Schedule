@@ -99,7 +99,13 @@ Navigate to EventBridge, select “EventBridge Schedule” then click “Create 
 
 Name and describe (optional) your schedule and set “Schedule group” to default.
 
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/f18ebbc57eca4b586cf4556f8ed0226858785c3d/Screenshot%202024-12-19%20211010.png)
+
+The Trigger start-server-mornning was successfully added to function start-EC2-Instance.The Function is now receiving event from the trigger.
+
 ![image alt]()
+
+
 
 
 
