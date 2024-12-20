@@ -55,7 +55,7 @@ Head back to the Lambda’s “Create function” window. Refresh the existing r
 # Step 2: Deploy and Test Lambda Function
 This code uses the “boto3” Python library to interact with AWS services. In the “lambda_handler” function, we loop through all Instances to get their current state and tags.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/e5c65fdcec12a5957765919bcf2a19f46cff6305/Screenshot%202024-12-19%20204150.png)
 
 Next, we will click “Deploy” to deploy the function’s code to the Lambda service, then click “Test” to test out the function based on a test case.
 
