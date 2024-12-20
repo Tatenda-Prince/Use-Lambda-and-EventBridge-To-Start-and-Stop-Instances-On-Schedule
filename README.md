@@ -24,7 +24,7 @@ You need to ensure that only the Development Instances are stopped and make sure
 You’ve decided to use a Lambda function using the Python runtime with EventBridge to schedule the function to run at 7am daily in the morning as no one should be working in the Dev environment until past 5pm in the evening.
 
 # Step 1: Set up Lambda Function and IAM Role
-[image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/d83384496383f22a3e8901ec3e18497103040e13/Screenshot%202024-12-19%20120614.png)
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/d83384496383f22a3e8901ec3e18497103040e13/Screenshot%202024-12-19%20120614.png)
 
 Select “Author from scratch”, name the function, then choose Python 3.7 or greater Runtime.
 
