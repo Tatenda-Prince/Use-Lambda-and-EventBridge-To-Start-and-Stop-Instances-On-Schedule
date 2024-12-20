@@ -53,6 +53,17 @@ Head back to the Lambda’s “Create function” window. Refresh the existing r
 ![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/308979191b655372eaf5f3d395badf87008bc510/Screenshot%202024-12-19%20203639.png)
 
 # Step 2: Deploy and Test Lambda Function
+This code uses the “boto3” Python library to interact with AWS services. In the “lambda_handler” function, we loop through all Instances to get their current state and tags.
+
+![image alt]()
+
+Next, we will click “Deploy” to deploy the function’s code to the Lambda service, then click “Test” to test out the function based on a test case.
+
+For “Test event action”, select “Create a new event”, then name the event. We can use the JSON code below to test our Lambda function.
+
+Click “Save” to save the Test event.
+
+![image alt]()
 
 
 
