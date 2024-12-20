@@ -63,7 +63,16 @@ For “Test event action”, select “Create a new event”, then name the even
 
 Click “Save” to save the Test event.
 
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/ffb84c76794c7ea3ce9a5793a018008994354632/Screenshot%202024-12-19%20204330.png)
+
+We can now test our function by clicking ‘Test”. A “success” response, along with other details from the function execution in the function logs should display in the “Executing results” tab.
+
 ![image alt]()
+
+Now that we’ve set up and created our Lambda function and also tested its successful functionality, we can now proceed to Step 3 — Using EventBridge to schedule our function to run at a set time of the day and days of the week.
+
+
+
 
 
 
