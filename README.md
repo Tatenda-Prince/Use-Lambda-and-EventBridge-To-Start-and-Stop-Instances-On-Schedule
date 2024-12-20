@@ -36,7 +36,13 @@ You will then change the default execution role and use an exiting role. To crea
 
 Click “Create policy”, then select the “JSON” table to edit the policy. Copy and paste the JSON policy below in the policy box, then click “Next:Tags”
 
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/7ef95345b9d53aa3ab5ea8792d9c1f6e83dc46ad/Screenshot%202024-12-19%20202513.png)
+
+Continue by clicking “Next: Review”. Name the policy, then click “Create policy”.
+
 ![image alt]()
+
+
 
 
 
