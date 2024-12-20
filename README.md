@@ -91,12 +91,15 @@ The second test ran successfully and as you can see below our Instance was stert
 
 ![image alt]( https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/b5973f73c3aedc7fa7b0a1786b16327566484a47/Screenshot%202024-12-19%20205756.png)
 
-
-
-
-
-
 Now that we’ve set up and created our Lambda function and also tested its successful functionality, we can now proceed to Step 3 — Using EventBridge to schedule our function to run at a set time of the day and days of the week.
+
+# Step 3: Create an EventBridge Schedule to schedule the Lambda function
+
+Navigate to EventBridge, select “EventBridge Schedule” then click “Create Rule”.
+
+Name and describe (optional) your schedule and set “Schedule group” to default.
+
+![image alt]()
 
 
 
