@@ -71,7 +71,11 @@ We can now test our function by clicking ‘Test”. A “success” response, a
 
 Our Instance has been successfully stopped using a lambda function as you can see below:
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/d4e598e1a070958dff1021caf16309992c02395c/Screenshot%202024-12-19%20205153.png)
+
+Now that we have managed stop our EC2 instance are going to create another lambda function to start our previously stopped instance.
+
+![image alt]( )
 
 
 Now that we’ve set up and created our Lambda function and also tested its successful functionality, we can now proceed to Step 3 — Using EventBridge to schedule our function to run at a set time of the day and days of the week.
