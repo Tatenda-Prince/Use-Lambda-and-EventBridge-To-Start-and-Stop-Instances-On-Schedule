@@ -103,7 +103,13 @@ Name and describe (optional) your schedule and set “Schedule group” to defau
 
 The Trigger start-server-mornning was successfully added to function start-EC2-Instance.The Function is now receiving event from the trigger.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Use-Lambda-and-EventBridge-To-Start-and-Stop-Instances-On-Schedule/blob/1e1d7672bfda0fad6cddebec39e630be517c0010/Screenshot%202024-12-19%20211035.png)
+
+We are going to create another event for Stop-EC2-Instance
+
+![image alt]( )
+
+
 
 
 
